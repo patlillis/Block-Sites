@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Block Sites",
+  "version": "1.0",
+  "description": "Blocks websites based on a list of domains",
+  "background": {
+    "scripts": [
+      "background.js",
+      "publicsuffixlist.js",
+      "uritools.js"
+    ]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking"
+  ]
+}
